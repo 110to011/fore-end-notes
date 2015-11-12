@@ -1,6 +1,6 @@
 # 快速绘制三角形的方法
 
-> 如何用border属性快速绘制一个三角形
+> 如何用border属性绘制一个三角形
 
 ```html
 <div class="caret"></div>

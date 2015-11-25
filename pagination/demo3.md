@@ -1,7 +1,9 @@
 # 异步分页-通过html方式渲染
 
 > * index1.html
+
 ```html
+
 <ul>
 	<li>0001</li>
 	<li>0002</li>
@@ -17,9 +19,15 @@
 	<a href="javascript:getPageData(3)">3</a>
 	<a href="javascript:getPageData(2)">下一页</a>
 </div>
+
 ```
+
+
 > * index2.html
+
+
 ```html
+
 <ul>
 	<li>0006</li>
 	<li>0007</li>
@@ -35,9 +43,12 @@
 	<a href="javascript:getPageData(3)">3</a>
 	<a href="javascript:getPageData(3)">下一页</a>
 </div>
+
 ```
 > * index3.html
+
 ```html
+
 <ul>
 	<li>0011</li>
 	<li>0012</li>
@@ -52,6 +63,7 @@
 	<a href="javascript:getPageData(2)">2</a>
 	<span>3</span><span>下一页</span>
 </div>
+
 ```
 
 

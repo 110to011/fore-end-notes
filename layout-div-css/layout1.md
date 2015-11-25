@@ -6,7 +6,6 @@
 -			font-size: 14px;
 -			color: #e6e6e6;
 -			margin: 0px;
--			padding-bottom: 60px;
 -			background: #7c7c7c;
 -		}
 -		.wrap {

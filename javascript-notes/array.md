@@ -91,5 +91,5 @@ console.log(arr1);
 arr1.splice(1,0,5,6,8,0);
 console.log(arr1);
 
-arr.reverse():颠倒所有数组元素
-arr.sort():默认升序排列。改变原数组
+arr.reverse():颠倒所有数组元素。
+arr.sort():默认升序排列，改变原数组。

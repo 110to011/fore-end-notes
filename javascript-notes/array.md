@@ -113,11 +113,9 @@ console.log(arr);
 6. arr.splice:删除、插入、替换
 
 > 直接修改原数组，返回被删除的元素
-
 * 删除：arr.splice(start,count);
 * 替换：arr.splice(start,count,值1,值2,...);
 * 插入：arr.splice(start,0,值1,值2,...);
-
 ```js
 var arr1 = [5,2,4,3,9,8,7];
 arr1.splice(1,2);
@@ -133,7 +131,6 @@ console.log(arr1);
 8. arr.sort():默认升序排列，改变原数组。
 
 > 自定义sort排序方法使之支持升序和降序
-
 ```js
 //定义比较器函数(定义任意两值比较策略的方法)
 function compareASC(a,b) {
@@ -149,6 +146,5 @@ var re = arr.sort(compareDESC);
 console.log(re);
 ```
 9. 栈和队列
-
 栈先进后出，实质上是一个数组，只不过用一对儿方法模拟了栈
 push:入栈，pop:出栈(弹出数组最后一个元素)

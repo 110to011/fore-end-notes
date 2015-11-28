@@ -111,7 +111,6 @@ console.log(arr);
 4. var newArr = arr.concat(元素值,[数组],...):将参数拆散成单个元素，追加到数组中,不会修改原数组，只能返回新数组对象
 5. var subArr = arr.slice(start,end+1):截取数组下标从start开始，到end位置的元素，生成自数组对象。*含头不含尾*
 6. arr.splice:删除、插入、替换
-
 > 直接修改原数组，返回被删除的元素
 * 删除：arr.splice(start,count);
 * 替换：arr.splice(start,count,值1,值2,...);
@@ -129,7 +128,6 @@ console.log(arr1);
 7. arr.reverse():颠倒所有数组元素。
 
 8. arr.sort():默认升序排列，改变原数组。
-
 > 自定义sort排序方法使之支持升序和降序
 ```js
 //定义比较器函数(定义任意两值比较策略的方法)
@@ -146,5 +144,6 @@ var re = arr.sort(compareDESC);
 console.log(re);
 ```
 9. 栈和队列
-栈先进后出，实质上是一个数组，只不过用一对儿方法模拟了栈
-push:入栈，pop:出栈(弹出数组最后一个元素)
+* 实质上是一个数组，栈先进后出，只不过用一对儿方法模拟了栈
+* 结尾入栈出栈：push:入栈，var last = arr.pop():出栈(弹出数组最后一个元素)
+* 开头入栈出栈：unshift入栈，var first = arr.shift():出栈，从开头删除

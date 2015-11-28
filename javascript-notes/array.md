@@ -107,17 +107,12 @@ console.log(arr);
 
 1. x.toString():任何对象都有此方法，将任何对象转为字符串，一般不主动调用，js在需要时自动调用
 2. x.valueOf():同toString()
-3. arr.join('分隔符'):将数组转为字符串。可自定义分隔符。
-
-典型用法：将字符拼接为单词或句子 chars.join('');
-
+3. arr.join('分隔符'):将数组转为字符串。可自定义分隔符。典型用法：将字符拼接为单词或句子 chars.join('');
 4. var newArr = arr.concat(元素值,[数组],...):将参数拆散成单个元素，追加到数组中,不会修改原数组，只能返回新数组对象
-
 5. var subArr = arr.slice(start,end+1):截取数组下标从start开始，到end位置的元素，生成自数组对象。*含头不含尾*
-
 6. arr.splice:删除、插入、替换
 
-直接修改原数组，返回被删除的元素
+> 直接修改原数组，返回被删除的元素
 
 * 删除：arr.splice(start,count);
 * 替换：arr.splice(start,count,值1,值2,...);
